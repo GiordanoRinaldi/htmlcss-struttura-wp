@@ -18,17 +18,21 @@ body {
 .main {
     height: 100px;
     background-color: violet;
+    margin: 20px 0px;
 }
 
 .parte-sopra {
     height: 450px;
     background-color: yellowgreen;
+    margin: 20px 0px;
 }
 
-.quello-sotto {
-    height: 500px;
+.parte-sotto {
+    height: 600px;
     background-color: blue;
+    margin-bottom: 10px;
 }
+
 
 .barra, .colonna-dx, .colonna-cx, .colonna-sx {
     background-color: cornflowerblue;
@@ -39,7 +43,7 @@ body {
 }
 
 .colonna-dx, .colonna-cx, .colonna-sx {
-    height: 430px;
+    height: 530px;
     float: left;
 }
 .colonna-dx, .colonna-sx {
@@ -50,4 +54,10 @@ body {
 .colonna-cx {
     width: calc(50% - 20px);
     margin: 10px;
+}
+
+.footer {
+    height: 80px;
+    background-color: rgb(207, 148, 207);
+    margin-bottom: 20px;
 }
