@@ -11,7 +11,7 @@
 }
 
 body {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -28,9 +28,7 @@ body {
 }
 
 .parte-sotto {
-    height: 600px;
     background-color: blue;
-    margin-bottom: 10px;
 }
 
 
@@ -43,21 +41,24 @@ body {
 }
 
 .colonna-dx, .colonna-cx, .colonna-sx {
-    height: 530px;
     float: left;
 }
 .colonna-dx, .colonna-sx {
-    width: calc(25%);
-    margin-top: 10px;
+    width: 20%;
 }
 
 .colonna-cx {
-    width: calc(50% - 20px);
-    margin: 10px;
+    width: calc(60% - 40px);
+    margin: 0 20px;
+}
+
+.colonne {
+    padding: 20px 0;
 }
 
 .footer {
     height: 80px;
     background-color: rgb(207, 148, 207);
+    margin-top: 10px;
     margin-bottom: 20px;
 }
